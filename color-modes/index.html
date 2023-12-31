@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Modes</title>
+    <link rel="manifest" href="worker.json">
+    <link rel="apple-touch-icon" href="/img/1.png">
+    <link rel="apple-touch-icon" href="/img/2.png">
+    <link rel="apple-touch-icon" href="/img/3.png">
+    <link rel="apple-touch-icon" href="/img/4.png">
+    <link rel="apple-touch-icon" href="/img/5.png">
+    <link rel="stylesheet" href="css/app.color-modes.css">
+    <meta name="theme-color" content="#acbaca">
+</head>
+<body>
+
+   
+    <div class="col">
+        <h2 style="text-align: center; padding: 5px 10px; margin: 10px; color: #313131; box-shadow: 0 0 10px #999;">Rang tanlang</h2>
+        <input type="color" value="#acbaca" id="inputColor">
+        <input type="text" value="#acbaca" id="inputText">
+        <div class="d-uu">
+            <button id="getRun" onclick="colorfunk()"><ion-icon name="play-outline"></ion-icon>Ishlatish</button>
+            <button id="getCopy" onclick="copy()"><ion-icon name="copy-outline"></ion-icon>Nusxalash</button>
+        </div>
+        <p id="demo" class="copyid"></p>
+    </div>
+
+    
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="js/app.color-modes.js"></script>
+</body>
+</html>

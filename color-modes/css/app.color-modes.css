@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*
+{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body
+{
+    min-height: 100vh;
+    display: flex;
+    background-color: #acbaca;
+    align-items: center;
+    justify-content: center;
+}
+
+.col
+{
+    padding:100px;
+    background: #fff;
+    box-sizing: border-box;
+    border-radius: 20px;
+    box-shadow: 0 0 20px #999;
+}
+
+.col input
+{
+    min-width: 100%;
+    border: none;
+    font-size: 18px;
+}
+
+.col input:hover,
+.col input:active
+{
+    border: none;
+}
+
+.d-uu
+{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.d-uu button
+{
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 0;
+    background: #f33446;
+    border: 0px;
+    border-radius: 20px;
+    padding: 10px 50px;
+    cursor: pointer;
+    color: #fff;
+    transition: 1s;
+}
+.d-uu button ion-icon
+{
+    padding: 0 5px;
+}
+
+.d-uu button:hover,
+.d-uu button:active
+{
+    background: #acbaca;
+    color: #212121;
+
+}
+
+.copyid
+{
+    margin-top: 20px;
+    text-align: center;
+    background: rgb(78, 78, 235);
+    color: #fff;
+    border-radius: 20px;
+}
+
+@media(max-width: 600px){
+    body{
+        flex-direction: column;
+    }
+    .col
+    {
+        padding: 100px 30px;
+    }
+}

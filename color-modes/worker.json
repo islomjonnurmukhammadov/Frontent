@@ -1,0 +1,42 @@
+{
+    "name": "Color Modes",
+    "short_name": "Color PWA",
+    "description":"Color Modes Web App",
+    "start_url":"index.html",
+    "display":"standalone",
+    "background_color":"#acbaca",
+    "theme_color": "#acbaca",
+    "orientitation":"portrait-primary",
+    "icons": [
+        {
+            "src":"/img/1.png",
+            "type":"image/png",
+            "sizes":"72x72",
+            "purpose":"any maskable"
+        },
+        {
+            "src":"/img/2.png",
+            "type":"image/png",
+            "sizes":"96x96",
+            "purpose":"any maskable"
+        },
+        {
+            "src":"/img/3.png",
+            "type":"image/png",
+            "sizes":"144x144",
+            "purpose":"any maskable"
+        },
+        {
+            "src":"/img/4.png",
+            "type":"image/png",
+            "sizes":"192x192",
+            "purpose":"any maskable"
+        },
+        {
+            "src":"/img/5.png",
+            "type":"image/png",
+            "sizes":"512x512",
+            "purpose":"any maskable"
+        }
+    ]
+}
